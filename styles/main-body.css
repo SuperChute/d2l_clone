@@ -2,10 +2,26 @@
   position: absolute;
   left: 140px;
   right:140px;
+  top: 154px;
+  bottom: 0;
 
   background-color: aquamarine;
 }
 
+.banner-wrapper{ 
+  background-color: beige;
+  position: relative;
+}
+
 .banner{ 
   width: 100%;
+}
+
+.banner-text{ 
+  position: absolute; 
+  font-size: 40px;
+  color: white;
+  bottom: 30px;
+  left: 30px;
+
 }
