@@ -1,0 +1,153 @@
+p{ 
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{ 
+  margin: 0;
+  height: 3000px;
+  background-color: rgb(249, 249, 249);
+}
+
+.shadowbox{ 
+  background-color: black;
+  height: 4px;
+}
+
+.header{ 
+  background-color: rgb(255, 255, 255);
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.left-section{ 
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex: 0.5;
+  justify-content: end;
+
+}
+
+.middle-section{ 
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex: 2;
+  justify-content: start;
+  margin-left: 20px;
+}
+
+.dot-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+}
+
+.dot-divider span {
+  width: 3.3px;
+  height: 3.3px;
+  background-color: #cbcbcb;
+  border-radius: 50%;
+}
+
+.logo-wrapper{
+  display: flex; 
+  width: 92px;
+  align-items: center;
+  margin-left: 18px;
+}
+
+.logo{ 
+  width: 100%;
+}
+
+
+.right-section{ 
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex: 1.78;
+  align-items: center;
+  justify-content:start;
+  margin-right: 33px;
+  gap: 25px; 
+}
+
+.grid-icon {
+  display: grid;
+  grid-template-columns: repeat(3, 8px);
+  gap: 2px;
+  width: fit-content;
+}
+
+.grid-icon span {
+  width: 8px;
+  height: 8px;
+  border: 2.3px solid #333;
+  border-radius: 1.5px; /* optional: gives a softer look */
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.sub-middle{ 
+  display: flex;
+  justify-content:flex-start;
+  gap: 45px;
+  background-color: rgb(255, 255, 255);
+}
+
+.sub-right{ 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+ 
+.profile-icon-wrapper{ 
+  display: flex; 
+  align-items: center;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10%; /* optional: makes it a circle */
+}
+
+.header2-wrapper{ 
+  background-color: rgb(18, 119, 170);
+  height: 60px;
+  display: flex;
+}
+
+.header2{ 
+  display: flex;
+  margin-left: 140px;
+  gap: 16px;
+  color: white;
+  align-items: center;
+  font-size: 18px;
+}
+
+.brightspace-ressources{ 
+  white-space: nowrap;
+}
+.mru-ressources{ 
+  white-space: nowrap;
+}
+.spot{ 
+  white-space: nowrap;
+}
+.discover {
+  cursor: pointer;
+  padding-top: 2px;
+  border-bottom: 2px solid transparent; /* reserves space */
+}
+
+.discover:hover {
+  
+  border-bottom: 2px solid white; /* or whatever color */
+}

@@ -1,0 +1,11 @@
+.main-body{ 
+  position: absolute;
+  left: 140px;
+  right:140px;
+
+  background-color: aquamarine;
+}
+
+.banner{ 
+  width: 100%;
+}
