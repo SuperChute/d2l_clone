@@ -1,6 +1,6 @@
 .banner-wrapper{ 
   position: relative;
-  width: 1160px;
+  width: 1095px;
   margin: 0 auto;
 }
 
@@ -17,20 +17,22 @@
 }
 
 .dashboard-wrapper{ 
-  width: 1160px;
-  
+  width: 1100px;
   margin: 0 auto;
-  background-color: aquamarine;
-  gap: 60px;
+  gap: 55px;
   display: flex;
   margin-top: 40px;
 } 
 
 .left-side{ 
-  background-color: red;
+  background-color: rgb(255, 255, 255);
   position: relative;
   width: 550px;
   height: 1400px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px; color: rgb(238, 238, 238);
+  border-width: 0.1px;
+  border-style: solid;
 } 
 
 .right-side{ 
@@ -40,50 +42,36 @@
 }
 
 .announcements-container{ 
-  background-color: blue;
+  background-color: rgb(255, 255, 255);
   position: relative;
   width: 550px;
-  height: 625px;
+  height: 488px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px; color: rgb(238, 238, 238);
+  border-width: 0.1px;
+  border-style: solid;
 }
 
 .tasks-container{ 
-  background-color: blueviolet;
+  background-color: rgb(255, 255, 255);
   position: relative;
   width: 550px;
-  height: 475px;
+  height: 375px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px; color: rgb(238, 238, 238);
+  border-width: 0.1px;
+  border-style: solid;
 }
 
-.my-courses{ 
+.announcement-text{ 
   margin-top: 18px;
   margin-left: 18px;
-  margin-bottom: 60px;
+  margin-bottom: 18px;
   font-weight: bold;
   font-size: 16px;
-}
+  color: black;
+} 
 
-.courses-grid{ 
-  background-color: bisque;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-  margin: 0 auto;
-  width: 515px;
-}
-
-.courses-wrapper{ 
-  border-style: solid;
-  border-width: 0.8px;
-  border-color: rgb(233, 233, 233);
-}
-
-.course-image{
-  width: 100%
-}
-
-.course-name{ 
-  width: 223px;
-  margin: 0 auto;
-  font-size: 19.5px;
-  line-height: 1.4;
-
-}
+.announcement-content{ 
+  margin-left: 18px;
+} 

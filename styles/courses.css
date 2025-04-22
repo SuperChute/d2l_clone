@@ -1,0 +1,48 @@
+.my-courses{ 
+  margin-top: 18px;
+  margin-left: 18px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+}
+
+.courses-grid{ 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin: 0 auto;
+  width: 455px;
+  height: 1200px;
+}
+
+.courses-wrapper{ 
+  border-style: solid;
+  border-width: 0.8px;
+  border-color: rgb(229, 229, 229);
+  border-radius: 10px;
+  
+}
+
+.course-image{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.course-name{ 
+  width: 201px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+
+}
+
+.view-all-courses{ 
+  margin-top: 18px;
+  margin-left: 18px;
+  margin-bottom: 60px;
+  color: rgb(0, 140, 255);
+  font-size: 18px;
+}
