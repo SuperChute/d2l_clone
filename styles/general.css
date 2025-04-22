@@ -4,9 +4,13 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 
+h3{ 
+  font-family: 'Open Sans', sans-serif;
+}
+
 body{ 
   margin: 0;
-  height: 3000px;
-  position: relative;
+  height: 1500px;
+  
   background-color: rgb(249, 249, 249);
 }

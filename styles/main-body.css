@@ -1,16 +1,7 @@
-.main-body{ 
-  position: absolute;
-  left: 140px;
-  right:140px;
-  top: 154px;
-  bottom: 0;
-
-  background-color: aquamarine;
-}
-
 .banner-wrapper{ 
-  background-color: beige;
   position: relative;
+  width: 1160px;
+  margin: 0 auto;
 }
 
 .banner{ 
@@ -23,5 +14,51 @@
   color: white;
   bottom: 30px;
   left: 30px;
+}
 
+.dashboard-wrapper{ 
+  width: 1160px;
+  
+  margin: 0 auto;
+  background-color: aquamarine;
+  gap: 60px;
+  display: flex;
+  margin-top: 40px;
+} 
+
+.courses-wrapper{ 
+  background-color: red;
+  position: relative;
+  width: 550px;
+  height: 1400px;
+} 
+
+.right-side{ 
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.announcements-container{ 
+  background-color: blue;
+  position: relative;
+  width: 550px;
+  height: 625px;
+}
+
+.tasks-container{ 
+  background-color: blueviolet;
+  position: relative;
+  width: 550px;
+  height: 475px;
+}
+
+.my-courses{ 
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  font-weight: bold;
+  font-size: 16px;
+  
+  
 }
