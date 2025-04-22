@@ -21,7 +21,13 @@
   border-width: 0.8px;
   border-color: rgb(229, 229, 229);
   border-radius: 10px;
+  transition: all 0.5s ease;
   
+}
+
+.courses-wrapper:hover {
+  transform: translateY(-6px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); 
 }
 
 .course-image{
