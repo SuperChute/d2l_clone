@@ -11,6 +11,20 @@ h3{
 body{ 
   margin: 0;
   height: 1500px;
-  
+  position: relative;
   background-color: rgb(249, 249, 249);
+} 
+
+.brightspace-logo{ 
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  margin: 0 auto;
+  width: 325px;
+  margin-top: 75px;
+}
+
+.brightspace-image{ 
+  width: 100%;
+  margin-bottom: 30px;
 }
