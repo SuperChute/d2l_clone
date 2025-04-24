@@ -28,7 +28,6 @@
   background-color: rgb(255, 255, 255);
   position: relative;
   width: 550px;
-  height: 1400px;
   border-radius: 10px;
   box-shadow: 1px 1px 5px 1px; color: rgb(238, 238, 238);
   border-width: 0.1px;
@@ -45,7 +44,7 @@
   background-color: rgb(255, 255, 255);
   position: relative;
   width: 550px;
-  height: 488px;
+  padding-bottom: 30px;
   border-radius: 10px;
   box-shadow: 1px 1px 5px 1px; color: rgb(238, 238, 238);
   border-width: 0.1px;
@@ -53,14 +52,31 @@
 }
 
 .tasks-container{ 
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   position: relative;
   width: 550px;
-  height: 375px;
+  padding-bottom: 50px;
   border-radius: 10px;
   box-shadow: 1px 1px 5px 1px; color: rgb(238, 238, 238);
   border-width: 0.1px;
   border-style: solid;
+  position: relative;
+} 
+
+.overdue-notification{ 
+  position: absolute;
+  background-color: rgb(190, 90, 22);
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+  right: 15px;
+  top: 55px;
+}
+
+.overdue-amount{ 
+  margin-left: 6px;
+  margin-top: 2px;
+  font-size: 14px;
 }
 
 .announcement-text{ 
@@ -75,3 +91,53 @@
 .announcement-content{ 
   margin-left: 18px;
 } 
+
+.tasks-wrapper{ 
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 530px;
+  gap: 10px;
+}
+
+.assignment-container{ 
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer; 
+  border: 0.3px solid transparent; /* 👈 keeps layout stable */
+  height: 50px;
+  border-radius: 10px;
+} 
+
+.assignment-container:hover{ 
+  border-color: rgb(0, 140, 255);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+} 
+
+.file-icon{ 
+  margin-left: 10px;
+}
+
+.assignment-wrapper{ 
+  display: flex;
+  flex-direction: column;
+  gap: 3px; 
+}
+.assignment-name{ 
+  color: rgb(59, 59, 59);
+}
+
+.assignment-class{ 
+  color: rgb(87, 87, 87);
+  font-size: 14px;
+}
+
+.assignment-container:hover .assignment-name p {
+  color: rgb(0, 140, 255);
+  text-decoration: underline;
+}
+
+.assignment-container:hover .file-icon i {
+  color: rgb(0, 140, 255);
+}
